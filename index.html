@@ -12,6 +12,88 @@
       padding: 1rem 0;
       text-align: center;
   }
+
+  .ad-banner {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+    position: relative;
+    background-image: url('https://m.media-amazon.com/images/I/710dy4BFjLL._SX679_.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+}
+
+.ad-banner .content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background for readability */
+    border-radius: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+.ad-banner h2 {
+    margin: 10px 0;
+    font-size: 2em;
+    line-height: 1.2;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.ad-banner p {
+    margin: 0 0 15px;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.ad-banner a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ad-banner a:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .ad-banner h2 {
+        font-size: 1.8em;
+    }
+
+    .ad-banner p {
+        font-size: 1em;
+    }
+
+    .ad-banner a {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ad-banner h2 {
+        font-size: 1.5em;
+    }
+
+    .ad-banner p {
+        font-size: 0.9em;
+    }
+
+    .ad-banner a {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }}
   </style>
   </head>
   <body>
@@ -62,7 +144,7 @@
             <img src="img1.jpg" class="card-img-top" alt="...">
             <div class="card-body" style="margin:2px;padding:20px;border:5px">
               <h5 class="card-title">Previous Year Question</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"></p>
               <a href="PYQ.html" class="btn btn-primary">View/ Download</a>
             </div>
           </div>
@@ -72,7 +154,7 @@
             <img src="img1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Syllabus</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"></p>
               <a href="syllabus.html" class="btn btn-primary">View/ Download</a>
             </div>
           </div>
@@ -82,7 +164,7 @@
             <img src="img1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Short Notes</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"></p>
               <a href="short.html" class="btn btn-primary">View/ Download</a>
             </div>
           </div>
@@ -92,7 +174,7 @@
             <img src="img1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Assignments / Practice questions</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"></p>
               <a href="practice.html" class="btn btn-primary">View/ Download</a>
             </div>
             </div>
@@ -100,6 +182,14 @@
           <br>
         </div>
       </div>
+
+      <div class="ad-banner">
+    <div class="content">
+        <h2>End of Season Sale!</h2>
+        <p>Up to 70% off on all items. Don't miss out!</p>
+        <a href="https://amzn.to/4fIODqg" target="_blank">Shop Now</a>
+    </div>
+</div>
     </center>
       
       
